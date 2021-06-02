@@ -1,0 +1,192 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+/*
+font-family: 'Handlee', cursive;
+
+font-family: 'Roboto', sans-serif
+  */
+}
+
+.hr-style{
+  border: 5px solid black;
+  border-bottom: none;
+  width: 150px;
+}
+
+.product-img{
+  width: 100%;
+  text-align: center;
+  margin: 10% 0;
+
+}
+.for-product-img{
+  text-align: center;
+  transition: transform 0.5s;
+  padding: 0 0 1% 0;
+}
+.for-product-img:hover{
+  transform: translateY(-10px);
+  box-shadow: 2px 3px 4px black;
+}
+.product-contents{
+  margin-bottom: 7% ;
+}
+
+/*Header Starts*/
+header{
+  background: radial-gradient(#fff,#ffd6d6);
+}
+.logo-img{
+  width: 40px;
+  height: auto;
+}
+.fas{
+  color: green;
+  text-align: center;
+}
+.nav-link{
+  text-align: center;
+  margin: 10px 30px;
+  color: #555;
+  padding: 15px;
+  transition: .4s;
+}
+.nav-link:hover{
+  color: blue;
+  background: rgba(0,0,0,0.3);
+  border-radius: 5px;
+  transform: scale(1.1);
+  
+}
+/*Header Ends*/
+/*Introduction  Starts*/
+#intro{
+  background: radial-gradient(#fff,#ffd6d6);
+  padding:5% 7% ;
+}
+.intro-contents{
+  text-align: center;
+  margin: 5% 0;
+  padding: 15% 10%;
+}
+
+
+.shopping-img{
+  width: 100%;
+}
+
+/*Introduction  Ends*/
+/*Sample product Start*/
+#sample-products{
+  padding:5% 7%;
+}
+
+
+/*Sample product Ends*/
+/*Feature product Starts*/
+#feature-products{
+  padding: 5% 7%;
+}
+
+
+
+/*Feature product Ends*/
+/*Latest product Starts*/
+#latest-products{
+  padding: 5% 7%;
+}
+
+
+
+/*Latest product Ends*/
+/*Special  product Starts*/
+#special-product{
+  padding: 5% 7%;
+  
+}
+.for-special-product-img{
+  text-align: center;
+  
+}
+.special-product-img{
+  width: 100%;
+  margin: 10% 0
+}
+.special-product-contents{
+text-align: center;
+}
+
+
+
+
+/*Special  product Ends*/
+/*Testimonial Starts*/
+#testimonial{
+  padding: 5% 7%;
+}
+.for-testimonial{
+  margin: 10% 0;
+  text-align: center;
+  
+}
+.testimonial-contents{
+  text-align: center;
+}
+
+.testimonial-img img{
+  width: 50px;
+  height: 50px;
+  margin: 1% 0;
+  
+}
+.small{
+  text-align: justify;
+}
+
+/*Testimonial Ends*/
+/*Brand Section Starts*/
+#brand-section{
+  padding: 5% 7%;
+}
+.for-brand-img{
+  text-align: center;
+  margin: 10% 0;
+}
+.brand-img{
+  width: 100%;
+  filter: grayscale(100%);
+}
+.brand-img:hover{
+  filter: grayscale(0);
+}
+
+
+/*Brand Section Ends*/
+/*Footer Section Starts*/
+footer{
+  padding: 5% 7%;
+  background: black;
+}
+.footer-contents{
+  text-align: center;
+  margin: 10% 0;
+}
+.footer-p{
+  color: gray;
+}
+.footer-p a{
+  color: gray;
+}
+.footer-img{
+  width:100px;
+  height: 50px;
+  padding: 4% 7%;
+  border: 1px solid white;
+}
+
+
+/*Footer Section Ends*/
+
